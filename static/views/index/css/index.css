@@ -1,0 +1,60 @@
+.advantageCon{
+	display: flex;
+	padding: 0.267rem 0;
+	background-color: #fff;
+	margin-bottom: 0.267rem;
+}
+.advantageCon .advantage-sec{
+	flex: 1;
+	text-align: center;
+	color: #424242;
+	font-size: 0.32rem;
+}
+.advantage-sec img{
+	height: 0.96rem;
+	margin-bottom: 0.133rem;
+}
+.novice-con{
+	height: 2.667rem;
+	background: #fff url('/views/index/images/voucher.jpg') no-repeat 0.4rem 0.567rem / 3.773rem;
+	position: relative;
+	margin-bottom: 0.267rem;
+}
+.novice{
+	display: block;
+	height: 100%;
+	position: relative;
+	font-size: 0.427rem;
+}
+.novice-txt{
+	position: absolute;
+	z-index: 1;
+	right: 0.533rem;
+	top: 0.8rem;
+}
+.novice-txt span{
+	color: #303030;
+}
+.novice-txt i{
+	color: #ff5156;
+}
+.getBtn{
+	position: absolute;
+	z-index: 1;
+	top: 1.633rem;
+	right: 2.667rem;
+	width: 2.133rem;
+	height: 0.693rem;
+	line-height: .693rem;
+	background:-webkit-linear-gradient(top,#fdcf7b,#fab262);
+	border-radius: 0.667rem;
+	color: #fff;
+	text-align: center;
+	font-size: 0.32rem;
+}
+.swiper-slide a{
+	display: block;
+}
+.swiper-slide a img{
+	width: 100%;
+}

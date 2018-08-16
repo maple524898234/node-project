@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    max-width: 750px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+body{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    background-color: #f1f1f1;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+
+.mgB20{
+	margin-bottom: 0.267rem;
+}
+.nav{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	z-index: 1;
+	display: flex;
+	background-color: #fff;
+	border-top: 1px solid #f6f6f6;
+	padding: 0.267rem 0;
+}
+.nav-sec{
+	text-align: center;
+	flex: 1;
+}
+.nav-sec img{
+	height: 0.587rem;
+}
+.nav-sec p{
+	color: #303030;
+	font-size: 0.16rem;
+}
+.container{
+	padding-bottom: 1.6rem;
+}
+.topNav{
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	left: 0;
+	padding: 0 0.4rem;
+	display: flex;
+	background-color: #fff;
+	height: 1.173rem;
+	line-height: 1.173rem;
+}
+.topNav-sec{
+	flex: 1;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #404040;
+	position: relative;
+}
+.topNav-sec .line{
+	position: absolute;
+	z-index: 1;
+	bottom: 0.067rem;
+	height: 0.067rem;
+	width: 40%;
+	left: 30%;
+	background-color: #ff5156;
+}
+
+.product{
+	background-color: #fff;
+	margin-bottom: 0.267rem;
+	padding: 0 0.373rem 0.4rem;
+}
+.product-con{
+	
+}
+.product-title{
+	overflow: hidden;
+	height: 1.067rem;
+	line-height: 1.067rem;
+	margin-bottom: 0.133rem;
+}
+.product-title-left{
+	float: left;
+}
+.product-title-left *{
+	float: left;
+}
+.product-title-right{
+	float: right;
+	
+}
+.more{
+	display: block;
+	color: #919191;
+	font-size: 0.347rem;
+}
+.titleicon{
+	display: inline-block;
+	width: 0.533rem;
+	height: 1.067rem;
+	margin-right: 0.133rem;
+	color: #303030;
+}
+.titleicon-txt1{
+	font-size: 0.4rem;
+	margin-right: 0.267rem;
+}
+.titleicon-txt2{
+	font-size: 0.347rem;
+	color: #919191;
+}
+.titleicon1{
+	background: url('/views/index/images/titleIcon-1.png') no-repeat center center / 0.533rem;
+}
+.titleicon2{
+	background: url('/views/index/images/titleIcon-2.png') no-repeat center center / 0.533rem;
+}
+.titleicon3{
+	background: url('/views/index/images/titleIcon-3.png') no-repeat center center / 0.533rem;
+}
+.productIcons{
+	border: 1px solid #ff5151; 
+	color: #ff5151;
+	border-radius: 0.667rem 0.067rem 0.667rem 0.667rem;
+	padding: 0.027rem 0.133rem;
+	font-size: 0.32rem;
+}
+.product-new{
+	text-align: center;
+	display: block;
+}
+.product-new .top{
+	color: #ff5156;
+	font-size: 0;
+}
+.product-new .top .t1{ 
+	font-size: 0.933rem;
+}
+.product-new .top .t2{ 
+	font-size: 0.4rem;
+}
+.product-new .top .t4{ 
+	font-size: 0.667rem;
+}
+.product-new .middle{
+	color: #919191;
+	font-size: 0.267rem;
+	margin-bottom: 0.667rem;
+}
+.product-new .bottom{
+	color: #919191;
+	font-size: 0.347rem;
+}
+.product-new .bottom .t1{
+	color: #303030;
+	font-size: 0.533rem;
+}
+.product-new .bottom .t3{
+	margin-left: 0.4rem;
+}
+.product-list{
+	display: block;
+	border-top: 1px solid #f6f6f6;	
+}
+.product-sec{
+	display: block;
+	background-color: #fff;
+	margin-bottom: 0.267rem;
+	padding: 0 0.373rem 0;
+}
+.product-conduction{
+	text-align: right;
+	margin-bottom: 0.267rem;
+}
+.product-body{
+	display: flex;
+	color: #919191;
+}
+
+.product-body-left .top{
+	color: #ff5151;
+	font-size: 0;
+	margin-bottom: 0.133rem;
+
+}
+.product-body-left{
+	flex: 2;
+}
+.product-body-left .top .t1{
+	font-size: 0.8rem;
+    display: inline-block;
+    line-height: .6rem;
+}
+.product-body-left .top .t2{
+	font-size: 0.4rem;
+}
+.product-body-left .bottom{
+	color: #999;
+	font-size: 0.267rem;
+}
+.product-body-middle{
+	text-align: center;
+	flex: 1;
+}
+.product-body-middle .top{
+	color: #303030;
+	font-size: 0;
+	margin-bottom: .4rem;
+}
+.product-body-middle .top .t1{
+	font-size: 0.48rem;
+	line-height: .4rem;
+}
+.product-body-middle .top .t2{
+	font-size: 0.267rem;
+}
+.product-body-middle .bottom{
+	font-size: 0.267rem;
+}
+.product-body-right{
+	text-align: right;
+	flex: 2;
+}
+.product-body-right .t2{
+	font-size: 0.267rem;
+}
+.product-body-right .t3{
+	font-size: 0.48rem;
+	color: #333;
+}
+.product-body-right .top{
+	margin-bottom: .4rem;
+	font-size: 0;
+}
+.product-body-right .bottom{
+	font-size: 0.267rem;
+}
+.loading-container{
+	width: 48%;
+    float: left;
+    padding-left: .8rem;
+    margin-top: .2rem;
+}
+.loading-container .t1{
+	display: inline-block;
+	height: 1px;
+	background-color: red;
+}
+.product-footer{
+	height: 1.067rem;
+	line-height: 1.067rem;
+	border-top: 1px solid #f6f6f6;
+	margin-top: 0.267rem;
+}
+.product-footer-left{
+	float: left;
+	color: #919191;
+	font-size: 0.347rem;
+}
+.product-footer-right{
+	float: right;
+	width: 40%;
+	height: 1.067rem;	
+}
+.product-footer-right .t2{
+	color: #919191;
+	font-size: 0.347rem;
+	float: right;
+}
+.product-footer-right .loading-container{
+	margin-top: 0;
+}
+.product-footer-right .loading-container .t1{
+	vertical-align: middle;
+}
