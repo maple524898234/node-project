@@ -8,7 +8,7 @@ let bodyParser = require('body-parser');
 let compression = require('compression');
 
 let app = express();
-
+ 
 // view engine setup
 app.set('views', path.join(__dirname, 'static/views'));
 app.use(express.static(path.join(__dirname, '/static')));
